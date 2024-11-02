@@ -45,8 +45,8 @@
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pixelage" />
 
   <!-- frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pixelage" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pixelage" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pixelage" clone-depth="1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pixelage" clone-depth="1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelage" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pixelage" />
 
