@@ -18,6 +18,6 @@
   
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="pixelage" />
   
-  <project path="vendor/pixelage-priv/keys" name="kavencat/vendor_priv_keys" remote="gihub" />
+  <project path="vendor/pixelage-priv/keys" name="kavencat/vendor_priv_keys" remote="github" revision="master" />
 
 </manifest>
