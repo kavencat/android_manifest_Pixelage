@@ -43,6 +43,7 @@
   <project path="device/lineage/sepolicy" name="android_device_pixelage_sepolicy" remote="pixelage" />
 
   <!-- external -->
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" groups="pdk" remote="pixelage" />
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="pixelage" />
 
   <!-- frameworks -->
