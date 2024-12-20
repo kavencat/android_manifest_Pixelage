@@ -59,6 +59,7 @@
 
   <!-- hardware -->
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="pixelage" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="pixelage" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelage" />
